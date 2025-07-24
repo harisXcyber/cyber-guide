@@ -2,8 +2,9 @@
 
 > **The ONLY beginner-friendly roadmap you need to start ethical hacking TODAY**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/get-into-hacking)](https://github.com/yourusername/get-into-hacking/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/get-into-hacking)](https://github.com/yourusername/get-into-hacking/network)
+[![View Site](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?style=for-the-badge&logo=github)](https://harisXcyber.github.io/cyber-guide/)
+[![GitHub stars](https://img.shields.io/github/stars/harisXcyber/cyber-guide?style=social)](https://github.com/harisXcyber/cyber-guide/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/harisXcyber/cyber-guide?style=social)](https://github.com/harisXcyber/cyber-guide/network)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -30,20 +31,16 @@ This guide takes you from **"I want to learn hacking"** to **"I'm making money a
 
 **Total Time: 2 hours to complete reading**
 
-**Time to Start Making Money: 3-6 months**
+**Time to Start Making Money: 3–6 months**
 
 ---
 
 ## 🔥 **Why This Guide Works**
 
-✅ **Written by someone who actually made it**
-
-✅ **No confusing technical jargon**
-
-✅ **Step-by-step, no guessing**
-
-✅ **Proven by hundreds of beginners**
-
+✅ **Written by someone who actually made it**  
+✅ **No confusing technical jargon**  
+✅ **Step-by-step, no guessing**  
+✅ **Proven by hundreds of beginners**  
 ✅ **Updated regularly**
 
 ---
@@ -69,8 +66,8 @@ This guide takes you from **"I want to learn hacking"** to **"I'm making money a
 
 Found a mistake? Want to add something?
 
-1. Fork this repo
-2. Make your changes
+1. Fork this repo  
+2. Make your changes  
 3. Submit a pull request
 
 **Every contribution makes this guide better for everyone!**
@@ -87,9 +84,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If this guide helped you, please:
 
-- **Star** this repository ⭐
-- **Share** with friends who want to learn
-- **Follow** for updates
+- **Star** this repository ⭐  
+- **Share** with friends who want to learn  
+- **Follow** for updates  
 
 ---
 
