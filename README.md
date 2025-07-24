@@ -2,7 +2,7 @@
 
 > **The ONLY beginner-friendly roadmap you need to start ethical hacking TODAY**
 
-[![View Site](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?style=for-the-badge&logo=github)](https://harisXcyber.github.io/cyber-guide/)
+[![View Site](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?style=for-the-badge&logo=github)](https://harisXcyber.github.io/CyberSecurity-Career-Guide/)
 [![GitHub stars](https://img.shields.io/github/stars/harisXcyber/cyber-guide?style=social)](https://github.com/harisXcyber/cyber-guide/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/harisXcyber/cyber-guide?style=social)](https://github.com/harisXcyber/cyber-guide/network)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
