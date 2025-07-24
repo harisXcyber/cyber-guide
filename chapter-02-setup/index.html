@@ -1,0 +1,1005 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://harisXcyber.github.io/cyber-guide/chapter-02-setup/">
+      
+      
+        <link rel="prev" href="../chapter-01-intro/">
+      
+      
+        <link rel="next" href="../chapter-03-learning/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Setup - The Cybersecurity Guide</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#02-setup-your-hacking-lab" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="The Cybersecurity Guide" class="md-header__button md-logo" aria-label="The Cybersecurity Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Cybersecurity Guide
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Setup
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="The Cybersecurity Guide" class="md-nav__button md-logo" aria-label="The Cybersecurity Guide" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    The Cybersecurity Guide
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-01-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-have-after-this-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 What You'll Have After This Chapter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-minimum-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Your Minimum Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-get-kali-linux-your-main-weapon" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔥 Step 1: Get Kali Linux (Your Main Weapon)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔥 Step 1: Get Kali Linux (Your Main Weapon)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-a-virtualbox-recommended-for-beginners" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option A: VirtualBox (Recommended for Beginners)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#option-b-dual-boot-advanced-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option B: Dual Boot (Advanced Users)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-essential-accounts-all-free" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Step 2: Essential Accounts (All FREE)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 Step 2: Essential Accounts (All FREE)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tryhackme-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      TryHackMe Account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      GitHub Account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hackerone-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      HackerOne Account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#youtube-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      YouTube Account
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-essential-tools-pre-installed-in-kali" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Step 3: Essential Tools (Pre-installed in Kali)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠️ Step 3: Essential Tools (Pre-installed in Kali)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Tools
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#web-application-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web Application Tools
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#system-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-code-editor-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Step 4: Code Editor Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Step 4: Code Editor Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-vs-code-in-kali" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install VS Code in Kali:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#essential-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Essential Extensions:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-browser-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔧 Step 5: Browser Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-verify-everything-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Step 6: Verify Everything Works
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-organization-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Step 7: Organization Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-setup-issues-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔥 Common Setup Issues &amp; Fixes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔥 Common Setup Issues &amp; Fixes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#issue-kali-is-slow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue: Kali is Slow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-internet-not-working-in-vm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue: Internet Not Working in VM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-screen-too-small" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue: Screen Too Small
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-copypaste-not-working" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue: Copy/Paste Not Working
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-complete-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Setup Complete Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Pro Tips
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-legal-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚨 Important Legal Note
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 What's Next?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-03-learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-04-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-05-earning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Earning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-06-ethics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-07-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="02-setup-your-hacking-lab">02 - Setup Your Hacking Lab 🛠️</h1>
+<blockquote>
+<p><strong>Get your battle station ready in 30 minutes - everything you need, nothing you don't</strong></p>
+</blockquote>
+<hr />
+<h2 id="what-youll-have-after-this-chapter">🎯 <strong>What You'll Have After This Chapter</strong></h2>
+<p>✅ Professional hacking environment</p>
+<p>✅ All essential tools installed</p>
+<p>✅ Ready to start learning immediately</p>
+<p>✅ Setup that scales with your skills</p>
+<hr />
+<h2 id="your-minimum-requirements">💻 <strong>Your Minimum Requirements</strong></h2>
+<p><strong>Good News: You probably already have enough!</strong></p>
+<p><strong>Minimum Specs:</strong>
+- Any laptop/desktop (Windows, Mac, Linux)
+- 8GB RAM (4GB works, but slower)
+- 50GB free space
+- Internet connection</p>
+<p><strong>That's it. Seriously.</strong></p>
+<hr />
+<h2 id="step-1-get-kali-linux-your-main-weapon">🔥 <strong>Step 1: Get Kali Linux (Your Main Weapon)</strong></h2>
+<p><strong>Kali Linux = Operating system built for hackers</strong></p>
+<p><strong>Contains 600+ hacking tools pre-installed</strong></p>
+<h3 id="option-a-virtualbox-recommended-for-beginners"><strong>Option A: VirtualBox (Recommended for Beginners)</strong></h3>
+<p><strong>Why VirtualBox?</strong>
+- Keeps your main system safe
+- Easy to reset if you break something
+- Can run multiple systems</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><strong>Download VirtualBox</strong></li>
+<li>Go to: <code>virtualbox.org</code></li>
+<li>Download for your OS</li>
+<li>
+<p>Install (keep clicking "Next")</p>
+</li>
+<li>
+<p><strong>Download Kali Linux</strong></p>
+</li>
+<li>Go to: <code>kali.org/get-kali</code></li>
+<li>Choose "Virtual Machines"</li>
+<li>Download "VirtualBox" version</li>
+<li>
+<p>File will be HUGE (3-4GB) - be patient</p>
+</li>
+<li>
+<p><strong>Import Kali</strong></p>
+</li>
+<li>Open VirtualBox</li>
+<li>Click "Import Appliance"</li>
+<li>Select your downloaded Kali file</li>
+<li>
+<p>Click "Import" (takes 10-15 minutes)</p>
+</li>
+<li>
+<p><strong>Start Your Hacking Lab</strong></p>
+</li>
+<li>Select Kali VM</li>
+<li>Click "Start"</li>
+<li>Default login: <code>kali</code> / <code>kali</code></li>
+</ol>
+<p><strong>🎉 BOOM! You now have a professional hacking setup!</strong></p>
+<hr />
+<h3 id="option-b-dual-boot-advanced-users"><strong>Option B: Dual Boot (Advanced Users)</strong></h3>
+<p><strong>Only do this if you're comfortable with computers</strong></p>
+<p><strong>Steps:</strong>
+1. Create USB bootable drive with Kali
+2. Boot from USB
+3. Install alongside your main OS</p>
+<p><strong>⚠️ Warning: Can break your computer if done wrong</strong></p>
+<hr />
+<h2 id="step-2-essential-accounts-all-free">🌐 <strong>Step 2: Essential Accounts (All FREE)</strong></h2>
+<h3 id="tryhackme-account"><strong>TryHackMe Account</strong></h3>
+<ul>
+<li>Go to: <code>tryhackme.com</code></li>
+<li>Sign up (free)</li>
+<li><strong>This is where you'll learn everything</strong></li>
+</ul>
+<h3 id="github-account"><strong>GitHub Account</strong></h3>
+<ul>
+<li>Go to: <code>github.com</code></li>
+<li>Sign up (free)</li>
+<li><strong>Store your scripts and tools</strong></li>
+</ul>
+<h3 id="hackerone-account"><strong>HackerOne Account</strong></h3>
+<ul>
+<li>Go to: <code>hackerone.com</code></li>
+<li>Sign up (free)</li>
+<li><strong>Your future bug bounty platform</strong></li>
+</ul>
+<h3 id="youtube-account"><strong>YouTube Account</strong></h3>
+<ul>
+<li>Go to: <code>youtube.com</code></li>
+<li>Sign up (free)</li>
+<li><strong>Best free learning resource</strong></li>
+</ul>
+<hr />
+<h2 id="step-3-essential-tools-pre-installed-in-kali">🛠️ <strong>Step 3: Essential Tools (Pre-installed in Kali)</strong></h2>
+<p><strong>Open Terminal in Kali and verify these exist:</strong></p>
+<h3 id="network-tools"><strong>Network Tools</strong></h3>
+<pre><code class="language-bash">nmap --version       # Network scanner
+</code></pre>
+<h3 id="web-application-tools"><strong>Web Application Tools</strong></h3>
+<pre><code class="language-bash">burpsuite           # Web app testing
+dirb --help         # Directory finder
+</code></pre>
+<h3 id="system-tools"><strong>System Tools</strong></h3>
+<pre><code class="language-bash">metasploit-framework-console    # Exploitation framework
+</code></pre>
+<p><strong>If any don't work, run:</strong></p>
+<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y
+</code></pre>
+<hr />
+<h2 id="step-4-code-editor-setup">📝 <strong>Step 4: Code Editor Setup</strong></h2>
+<p><strong>You need a good text editor for scripts</strong></p>
+<h3 id="install-vs-code-in-kali"><strong>Install VS Code in Kali:</strong></h3>
+<pre><code class="language-bash">sudo apt update
+sudo apt install code-oss -y
+</code></pre>
+<h3 id="essential-extensions"><strong>Essential Extensions:</strong></h3>
+<ul>
+<li>Python</li>
+<li>Bash Debug</li>
+<li>Markdown Preview</li>
+</ul>
+<hr />
+<h2 id="step-5-browser-setup">🔧 <strong>Step 5: Browser Setup</strong></h2>
+<p><strong>Install Firefox Extensions (Essential for Web Hacking):</strong></p>
+<ol>
+<li><strong>FoxyProxy</strong></li>
+<li>Manages proxy settings</li>
+<li>
+<p>Essential for Burp Suite</p>
+</li>
+<li>
+<p><strong>Wappalyzer</strong></p>
+</li>
+<li>Identifies technologies</li>
+<li>
+<p>See what a website uses</p>
+</li>
+<li>
+<p><strong>HackBar</strong></p>
+</li>
+<li>Quick payload testing</li>
+<li>XSS and SQL injection helper</li>
+</ol>
+<p><strong>Installation:</strong>
+- Open Firefox in Kali
+- Go to <code>addons.mozilla.org</code>
+- Search and install each extension</p>
+<hr />
+<h2 id="step-6-verify-everything-works">🎯 <strong>Step 6: Verify Everything Works</strong></h2>
+<p><strong>Run this quick test:</strong></p>
+<ol>
+<li><strong>Open Terminal</strong></li>
+<li><strong>Run:</strong>
+   <code>bash
+   nmap scanme.nmap.org</code></li>
+<li><strong>Should see scan results</strong></li>
+</ol>
+<p><strong>If you see scan results = SUCCESS! 🎉</strong></p>
+<hr />
+<h2 id="step-7-organization-setup">📋 <strong>Step 7: Organization Setup</strong></h2>
+<p><strong>Create these folders for organization:</strong></p>
+<pre><code class="language-bash">mkdir ~/hacking
+mkdir ~/hacking/scripts
+mkdir ~/hacking/notes
+mkdir ~/hacking/tools
+mkdir ~/hacking/targets
+</code></pre>
+<p><strong>This keeps everything organized from day 1</strong></p>
+<hr />
+<h2 id="common-setup-issues-fixes">🔥 <strong>Common Setup Issues &amp; Fixes</strong></h2>
+<h3 id="issue-kali-is-slow"><strong>Issue: Kali is Slow</strong></h3>
+<p><strong>Fix:</strong> Allocate more RAM in VirtualBox settings (minimum 4GB)</p>
+<h3 id="issue-internet-not-working-in-vm"><strong>Issue: Internet Not Working in VM</strong></h3>
+<p><strong>Fix:</strong> Check VirtualBox network settings - use "NAT"</p>
+<h3 id="issue-screen-too-small"><strong>Issue: Screen Too Small</strong></h3>
+<p><strong>Fix:</strong> Install VirtualBox Guest Additions</p>
+<h3 id="issue-copypaste-not-working"><strong>Issue: Copy/Paste Not Working</strong></h3>
+<p><strong>Fix:</strong> Enable shared clipboard in VirtualBox settings</p>
+<hr />
+<h2 id="setup-complete-checklist">✅ <strong>Setup Complete Checklist</strong></h2>
+<p>✅ Kali Linux running</p>
+<p>✅ All accounts created</p>
+<p>✅ Tools verified working</p>
+<p>✅ Browser extensions installed</p>
+<p>✅ Folders organized</p>
+<p>✅ VS Code ready</p>
+<p><strong>If you checked all boxes = You're ready to hack! 🚀</strong></p>
+<hr />
+<h2 id="pro-tips">🎯 <strong>Pro Tips</strong></h2>
+<p><strong>💡 Tip 1:</strong> Take a VM snapshot after setup
+- VirtualBox → Snapshots → Take
+- If you break something, restore instantly</p>
+<p><strong>💡 Tip 2:</strong> Update regularly</p>
+<pre><code class="language-bash">sudo apt update &amp;&amp; sudo apt upgrade -y
+</code></pre>
+<p><strong>💡 Tip 3:</strong> Join Discord communities
+- Get help when stuck
+- Learn from others
+- Stay motivated</p>
+<hr />
+<h2 id="important-legal-note">🚨 <strong>Important Legal Note</strong></h2>
+<p><strong>ONLY use these tools on:</strong>
+- Your own systems
+- TryHackMe/HackTheBox labs
+- Systems you have written permission to test</p>
+<p><strong>NEVER use on:</strong>
+- Other people's websites
+- Company systems without permission
+- Government systems</p>
+<p><strong>This is the difference between ethical hacking and going to jail.</strong></p>
+<hr />
+<h2 id="whats-next">🔗 <strong>What's Next?</strong></h2>
+<p><strong>Your setup is complete!</strong></p>
+<p><strong>Now let's learn the EXACT path to become a hacker.</strong></p>
+<p><strong><a href="03-learn-path.md">NEXT: Chapter 3 - The Learning Path →</a></strong></p>
+<hr />
+<p><em>"A professional is someone whose setup lets them focus on skills, not tools."</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
